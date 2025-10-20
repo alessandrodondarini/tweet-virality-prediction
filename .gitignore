@@ -1,0 +1,14 @@
+# Ignora backup Jupyter
+.ipynb_checkpoints/
+
+# Cache Python
+__pycache__/
+*.pyc
+
+# File di sistema
+.DS_Store
+Thumbs.db
+
+# Ambienti virtuali
+venv/
+.env/
