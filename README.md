@@ -11,7 +11,8 @@ In this project, we focus on **Twitter data** (now X) taken from the [Codecademy
 Using a **quartile-based division**, we classify tweet virality into four categories:  
 `unpopular`, `average`, `popular`, and `super popular`.  
 
-We then perform **feature engineering** to uncover potential hidden features in the tweets, such as:  
+We then perform exploratory data analysis by plotting the distributions of relevant features, and conduct feature engineering to uncover potential hidden patterns in the tweets, such as:
+
 - tweet length  
 - number of hashtags 
 - number of mentions 
