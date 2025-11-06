@@ -31,12 +31,13 @@ Each model was trained and evaluated on the same dataset to compare their perfor
 
 ### Results Summary
 
-- The **Neural Network** achieved the highest accuracy at **51%**, performing roughly twice as well as random selection (25% accuracy given the four classes).   
+- The **Neural Network** achieved **51% accuracy**, performing roughly twice as well as random selection (25% accuracy given the four classes).   
 - However, its **F1-score for the minority class** (`average`) remained low at **12%**, indicating room for improvement.  
-- The **KNN** model reached **49% accuracy**, but a higher **F1-score (24%)** for the minority class, suggesting better balance.
-- **Random Forest** generally has the lowest metrics, underperforming both the aforementioned models. 
+- The **KNN** model reached **49% accuracy**, but a higher **F1-score (24%)** for the minority class, suggesting a mild improvement in handling.
+- The **Random Forest** model achieved the highest accuracy at **53%**, although its **F1-score for the minority class** remained slightly lower than that of **KNN** (**21%** vs. **24%**).
+ 
 
-These results highlight that better handling of minority classes could lead to significant improvements in model performance across all metrics.
+Although the test accuracies of the three models are comparable, the results highlight that better handling of minority classes could lead to significant improvements across all evaluation metrics.
 
 
 
