@@ -30,7 +30,7 @@ Each model was trained and evaluated on the same dataset to compare their perfor
 
 
 ### Results Summary
-
+![Model Comparison](results/model_comparison.png)
 - The **Neural Network** achieved **51% accuracy**, performing roughly twice as well as random selection (25% accuracy given the four classes).   
 - However, its **F1-score for the minority class** (`average`) remained low at **12%**, indicating room for improvement.  
 - The **KNN** model reached **49% accuracy**, but a higher **F1-score (24%)** for the minority class, suggesting a mild improvement in handling.
