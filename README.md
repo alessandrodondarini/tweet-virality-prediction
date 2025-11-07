@@ -16,8 +16,9 @@ We then perform exploratory data analysis by plotting the distributions of relev
 - tweet length  
 - number of hashtags 
 - number of mentions 
-- tweet language  
+- tweet language
 
+Importantly, the dataset naturally exhibits class imbalance due to the highly skewed distribution of retweet counts. Using a quartile-based division reflects this skew, so rather than enforcing artificial class balance, models were trained on the original distribution to maintain realism.
 
 ### Models Implemented
 
