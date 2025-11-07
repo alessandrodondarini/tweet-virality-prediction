@@ -31,18 +31,22 @@ Each model was trained and evaluated on the same dataset to compare their perfor
 
 ### Results Summary
 ![Model Comparison](results/model_comparison.png)
+*Figure 1: Comparison of the performances across the three models. The blue bar shows the test accuracy, while the orange and green bars represent the F1-scores for the majority (`unpopular`) and minority (`average`) classes, respectively.*
+
+
+
 - The **Neural Network** achieved **51% accuracy**, performing roughly twice as well as random selection (25% accuracy given the four classes).   
 - However, its **F1-score for the minority class** (`average`) remained low at **12%**, indicating room for improvement.  
 - The **KNN** model reached **49% accuracy**, but a higher **F1-score (24%)** for the minority class, suggesting a mild improvement in handling minority classes.
 - The **Random Forest** model achieved the highest accuracy at **53%**, although its **F1-score for the minority class** remained slightly lower than that of **KNN** (**21%** vs. **24%**).
  
 
-Although the test accuracies of the three models are comparable, the results highlight that better handling of minority classes could lead to significant improvements across all evaluation metrics.
+Although the test accuracies of the three models are comparable and the F1-scores for the majority class (`unpopular`) remain relatively high (around **75%**), the consistently low F1-scores for the `average` class reveal that better handling of minority categories could lead to significant performance improvements across all evaluation metrics.
 
 
 
 ### Conclusion
 
-This project demonstrates the potential of machine learning models to analyze social media data by predicting viral trends using a minimal set of features, while also highlighting the importance of addressing **class imbalance** for fairer and more reliable predictions.
+This project demonstrates the potential of machine learning models to analyze social media data and predict viral trends using a minimal set of features. It also emphasizes the importance of addressing **class imbalance** to achieve more reliable predictions. As a natural outlook, applying resampling techniques or class-weight adjustments could help mitigate imbalance effects and improve overall model performance.
 
 
