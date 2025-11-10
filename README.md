@@ -1,8 +1,11 @@
 # Tweet Virality Prediction
 
-Sentiment analysis on social networks remains one of the most interesting fields to apply statistical tools and machine learning models, with the practical advantage of predicting trends and identifying patterns.  
+Sentiment analysis on social networks remains one of the most compelling fields for applying statistical tools and machine learning models, offering the practical advantage of predicting trends and identifying behavioral patterns.  
 
-In this project, we focus on **Twitter data** (now X) taken from the [Codecademy platform](https://www.codecademy.com) (course: *Build a Machine Learning Model*) and implement several machine learning models to predict whether a tweet becomes viral.  
+Predicting viral trends is particularly valuable in contexts where companies and advertisers aim to **optimize ad diffusion strategies** by investing in the most shareable and engaging posts.  
+
+For these reasons, this project focuses on **Twitter data** (now *X*), taken from the [Codecademy platform](https://www.codecademy.com) (course: *Build a Machine Learning Model*), and implements several machine learning models to predict whether a tweet becomes viral.
+
 
 
 
@@ -45,9 +48,13 @@ Each model was trained and evaluated on the same dataset to compare their perfor
 Although the test accuracies of the three models are comparable and the F1-scores for the majority class (`unpopular`) remain relatively high (around **75%**), the consistently low F1-scores for the `average` class reveal that better handling of minority categories could lead to significant performance improvements across all evaluation metrics.
 
 
+### Conclusions
 
-### Conclusion
+This project demonstrates the potential of machine learning models to analyze social media data and predict viral trends using a minimal set of features. It also highlights the importance of properly addressing **class imbalance** to achieve more reliable and generalizable predictions.  
 
-This project demonstrates the potential of machine learning models to analyze social media data and predict viral trends using a minimal set of features. It also emphasizes the importance of addressing **class imbalance** to achieve more reliable predictions. As a natural outlook, applying resampling techniques or class-weight adjustments could help mitigate imbalance effects and improve overall model performance.
+As a natural next step, applying techniques such as **resampling** or **class-weight adjustments** could help mitigate imbalance effects and further improve model performance.  
+
+The key takeaway of the project is the importance of enhancing the model’s ability to detect minority classes to more effectively identify high-potential content and optimize ad diffusion strategies.
+
 
 
