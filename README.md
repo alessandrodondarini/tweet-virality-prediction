@@ -1,6 +1,6 @@
 # Tweet Virality Prediction
 
-Sentiment analysis on social networks remains one of the most compelling fields for applying statistical tools and machine learning models, offering the practical advantage of predicting trends and identifying behavioral patterns.  
+Data analysis of social networks remains one of the most compelling fields for applying statistical tools and machine learning models, offering the practical advantage of predicting trends and identifying behavioral patterns.  
 
 Predicting viral trends is particularly valuable in contexts where companies and advertisers aim to **optimize ad diffusion strategies** by investing in the most shareable and engaging posts.  
 
@@ -11,7 +11,7 @@ For these reasons, this project focuses on **Twitter data** (now *X*), taken fro
 
 ### Project Overview
 
-Using a **quartile-based division**, we classify tweet virality into four categories:  
+Using a **quartile-based division** of the retweet count ditribution, we classify tweet virality into four categories:  
 `unpopular`, `average`, `popular`, and `super popular`.  
 
 We then perform exploratory data analysis by plotting the distributions of relevant features, and conduct feature engineering to uncover potential hidden patterns in the tweets, such as:
@@ -35,7 +35,7 @@ Each model was trained and evaluated on the same dataset to compare their perfor
 
 ### Results Summary
 ![Model Comparison](results/model_comparison.png)
-*Figure 1: Comparison of the performances across the three models. The blue bar shows the test accuracy, while the orange and green bars represent the F1-scores for the majority (`unpopular`) and minority (`average`) classes, respectively.*
+*Figure 1: Comparison of the performance of the three models. The blue bar shows the overall test accuracy, while the orange and green bars represent the F1-scores for the majority (`unpopular`) and minority (`average`) classes, respectively. The red and purple bars correspond to the F1-scores for the `popular` and `super-popular` classes. The baseline performance, obtained by randomly selecting a category, is indicated by the horizontal dashed line at 25%.*
 
 
 
