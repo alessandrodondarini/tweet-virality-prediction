@@ -9,7 +9,7 @@ For these reasons, we analyze **10K+ tweets** from the [Codecademy platform](htt
 
 
 
-### Project Overview
+## Project Overview
 
 Using a **quartile-based division** of the retweet count distribution, we classify tweet virality into four categories:  
 - `unpopular` – bottom 25% of tweets  
@@ -18,6 +18,7 @@ Using a **quartile-based division** of the retweet count distribution, we classi
 - `super popular` – top 25% of tweets  
 
 ![Distribution of Retweet](results/distribution.png)
+*Figure 1: Distribution of the retweet count.*
 We then perform exploratory data analysis (EDA) to examine the distributions of relevant features and conduct feature engineering to uncover potential patterns that may indicate virality.  In particular, by analyzing the text of the tweets, we extract features such as:  
 
 - Tweet length  
@@ -28,7 +29,7 @@ We then perform exploratory data analysis (EDA) to examine the distributions of 
 Importantly, the dataset exhibits **class imbalance** due to the skewed distribution of retweet counts. Using a quartile-based division reflects this skew, so instead of enforcing artificial class balance, models were trained on the original distribution to maintain realism.
 
 
-### Models Implemented
+## Models Implemented
 
 One of the main challenges in this analysis is the strong imbalance between virality classes, which can significantly affect evaluation metrics such as the F1-score.  
 
@@ -38,9 +39,9 @@ To address this issue, we implemented three different machine learning models:
 Each model was trained and evaluated on the same dataset to compare their performance in predicting tweet virality and handling class imbalance.
 
 
-### Results Summary
+## Results Summary
 ![Model Comparison](results/model_comparison.png)
-*Figure 1: Comparison of the performance of the three models. The blue bar shows the overall test accuracy, while the orange and green bars represent the F1-scores for the majority (`unpopular`) and minority (`average`) classes, respectively. The red and purple bars correspond to the F1-scores for the `popular` and `super-popular` classes. The baseline performance, obtained by randomly selecting a category, is indicated by the horizontal dashed line at 25%.*
+*Figure 2: Comparison of the performance of the three models. The blue bar shows the overall test accuracy, while the orange and green bars represent the F1-scores for the majority (`unpopular`) and minority (`average`) classes, respectively. The red and purple bars correspond to the F1-scores for the `popular` and `super-popular` classes. The baseline performance, obtained by randomly selecting a category, is indicated by the horizontal dashed line at 25%.*
 
 
 
@@ -56,7 +57,7 @@ Although the test accuracies of the three models are comparable and the F1-score
 
 
 
-### Conclusions
+## Conclusions
 
 This project demonstrates the potential of machine learning models to analyze social media data and predict viral trends using a minimal set of features. It also highlights the importance of properly addressing **class imbalance** to achieve more reliable and generalizable predictions.  
 
