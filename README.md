@@ -17,6 +17,7 @@ Using a **quartile-based division** of the retweet count distribution, we classi
 - `popular` – tweets between the 50th and 75th percentiles  
 - `super popular` – top 25% of tweets  
 
+![Distribution of Retweet](results/distribution.png)
 We then perform exploratory data analysis (EDA) to examine the distributions of relevant features and conduct feature engineering to uncover potential patterns that may indicate virality.  In particular, by analyzing the text of the tweets, we extract features such as:  
 
 - Tweet length  
