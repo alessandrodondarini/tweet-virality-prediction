@@ -7,7 +7,7 @@ Predicting viral trends is particularly valuable in contexts where companies and
 For these reasons, we analyze **10K+ tweets**, with the goal of predicting whether a tweet becomes viral. The dataset includes several columns, such as the raw tweet text, timestamp, number of favorites, number of retweets, and others.
 
 ## Tech Stack
-- **Python**: NumPy, Pandas, Matplotlib, Scikit-learn 
+- **Python**: NumPy, Pandas, Matplotlib, Scikit-learn, PyTorch 
 - **Jupyter Notebook**  
  
 
